@@ -1,0 +1,65 @@
+@import "../../styles/initial.scss";
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-header {
+  &-box {
+    height: 100px;
+    display: flex;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 0 50%;
+    background-color: #fff;
+    .logo {
+    }
+
+    .main-menu {
+      ul {
+        display: flex;
+        li {
+          margin: 0 0 0 40px;
+          list-style: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    background-color: #000;
+    color: #fff;
+    .search-header {
+        margin: 0 0 0 50px;
+        width: 300px;
+    }
+
+    .info-header {
+        display: flex;
+    }
+
+    .user-account {
+        padding: 10px;
+    }
+
+    .basket {
+        padding: 10px;
+    }
+  }
+}
+
+.search {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(92, 92, 92);
+}
